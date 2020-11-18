@@ -1,6 +1,9 @@
 import './App.css';
 import { ShopItemClass } from './components/ShopItemClass'
 
+
+
+
 function App() {
   const item = {
     brand: 'Tiger of Sweden',
@@ -10,7 +13,6 @@ function App() {
     price: 399,
     currency: '£'
   }
-  
   // Внутри компонента App
   return (
     <div className="container">
